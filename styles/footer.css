@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #ddd;
+}
+.footer h1 {
+    color: #333;
+}
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-links a {
+    margin: 1em 0.5em;
+    font-size: 4em;
+    color: hsla(201, 50%, 20%, 0.8);
+}
+.contact-links a:hover {
+    color: hsla(201, 50%, 20%, 1);
+}
+.footer p {
+    color: #555;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer p:last-child {
+    font-family: 'Satisfy', cursive;
+}

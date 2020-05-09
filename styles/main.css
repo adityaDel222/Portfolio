@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.section {
+    margin: 4em 2em 5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.section h1 {
+    text-align: center;
+    top: 2em;
+    position: sticky;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'VT323', monospace; */
+    font-size: 1.7em;
+    padding: 1em;
+    background-color: #222;
+    width: 100%;
+}
+.odd-item {
+    background-color: #333;
+}
+.view-less {
+    display: none;
+}
+.view-more, .view-less {
+    text-align: center;
+    cursor: pointer;
+}
+.view-more span, .view-less span {
+    margin: 0;
+}
+.view-more span:hover, .view-less span:hover {
+    transform: translateY(0.1em);
+}
+.view-less span:hover {
+    transform: translateY(-0.1em);
+}
+.more-projects-list {
+    display: none;
+}

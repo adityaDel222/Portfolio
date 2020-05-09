@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "degree": "Bachelor of Technology",
+        "degree_abbr": "B. Tech.",
+        "institution": "Vellore Institute of Technology",
+        "location": {
+            "city": "Vellore",
+            "state": "Tamil Nadu",
+            "country": "India"
+        },
+        "subject": "Computer Science and Engineering",
+        "subj_abbr": "CSE",
+        "specialisation": "Information Security",
+        "period": {
+            "from": {
+                "month": "July",
+                "year": "2017"
+            },
+            "to": {
+                "month": "July",
+                "year": "2021"
+            }
+        }
+    },
+    {
+        "id": "2",
+        "degree": "Intermediate",
+        "degree_abbr": "12th",
+        "institution": "Veda Vyasa D.A.V. Public School",
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "subject": "Non-Medical",
+        "subj_abbr": "PCM",
+        "specialisation": "Computer Science",
+        "period": {
+            "from": {
+                "month": "April",
+                "year": "2015"
+            },
+            "to": {
+                "month": "April",
+                "year": "2017"
+            }
+        }
+    },
+    {
+        "id": "3",
+        "degree": "Matriculation",
+        "degree_abbr": "10th",
+        "institution": "Veda Vyasa D.A.V. Public School",
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "subject": "Science",
+        "subj_abbr": null,
+        "specialisation": null,
+        "period": {
+            "from": {
+                "month": "April",
+                "year": "2010"
+            },
+            "to": {
+                "month": "April",
+                "year": "2015"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "degree": "Primary School",
+        "degree_abbr": "5th",
+        "institution": "Rama Krishna Sr. Sec. School",
+        "location": {
+            "city": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        },
+        "subject": "CBSE Curriculum",
+        "subj_abbr": null,
+        "specialisation": null,
+        "period": {
+            "from": {
+                "month": "April",
+                "year": "2008"
+            },
+            "to": {
+                "month": "April",
+                "year": "2010"
+            }
+        }
+    }
+]

@@ -1,0 +1,101 @@
+.about-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    padding: 2em 5em;
+    margin-bottom: 1em;
+}
+.about-info img {
+    width: 20em;
+    border-radius: 50%;
+}
+.about-info p {
+    width: 40%;
+    background-color: #222;
+    color: #ddd;
+    padding: 2em;
+}
+.about-desc {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experiences, .educations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+.experiences-list, .education-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience, .education {
+    display: flex;
+    justify-content: center;
+    /* min-width: 100%; */
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.timeline .circle {
+    width: 0;
+    height: 0;
+    border: 0.75em solid #aaa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timeline .circle .inner-circle {
+    width: 0;
+    height: 0;
+    border: 0.5em solid #222;
+    border-radius: 50%;
+}
+.timeline .line {
+    width: 0;
+    height: 100%;
+    border: 0.15em solid #777;
+}
+.experience-body, .education-body {
+    /* min-width: 40em;
+    max-width: 40em; */
+    width: 40em;
+    margin-left:1em;
+    padding: 1em;
+}
+.experience-body p, .education-body p {
+    margin-bottom: 0.5em;
+}
+.experience-body .exp-title, .education-body .edu-degree {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.experience-body .exp-company, .education-body .edu-institution {
+    font-size: 1.25em;
+}
+.experience-body .exp-location {
+    font-size: 0.9em;
+    display: inline-block;
+    margin-left: 1em;
+    color: #ccc;
+}
+.experience-body .exp-period, .education-body .edu-period {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 0.8em;
+    border: 0.1em solid #777;
+    border-radius: 0.5em;
+    margin: 0;
+    background-color: #333;
+}

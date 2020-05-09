@@ -1,0 +1,32 @@
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em;
+}
+.more-projects-list {
+    display: none;
+}
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3em;
+    width: 85%;
+    padding: 3em;
+}
+.project img {
+    width: 45%;
+}
+.project-info {
+    margin: 2em;
+    width: 40%;
+}
+.project-domain {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0;
+    border: 0.05em solid #aaa;
+    border-radius: 0.5em;
+}

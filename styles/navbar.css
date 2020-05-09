@@ -1,0 +1,30 @@
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-bar-1 {
+    background-color: #ddd;
+    color: #222;
+    transition: 0.2s;
+}
+.nav-bar-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+.nav-bar-links-1 {
+    color: #222;
+    transition: 0.2s;
+}
+.nav-bar-links a {
+    font-size: 1.25em;
+}
+.nav-bar-links a:hover {
+    color: #aaa;
+}
