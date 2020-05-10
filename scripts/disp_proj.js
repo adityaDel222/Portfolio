@@ -10,7 +10,7 @@ const display_projects = data => {
             <div class="project-info">
                 <h2>${ data[i].title }</h2>
                 <p class="project-domain">${ data[i].domain }</p>
-                <p>${ data[i].description }</p>
+                <p class="project-description">${ data[i].description }</p>
                 <p><a href="${ data[i].link }" target="_blank">Visit Project&nbsp;&nbsp;<span class="fas fa-external-link-alt"></span></a></p>
             </div>
         `;
@@ -31,7 +31,7 @@ const display_projects = data => {
             <div class="project-info">
                 <h2>${ data[i].title }</h2>
                 <p class="project-domain">${ data[i].domain }</p>
-                <p>${ data[i].description }</p>
+                <p class="project-description">${ data[i].description }</p>
                 <p><a href="${ data[i].link }" target="_blank">Visit Project&nbsp;&nbsp;<span class="fas fa-external-link-alt"></span></a></p>
             </div>
         `;
