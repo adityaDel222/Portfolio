@@ -1,4 +1,4 @@
-.about-info {
+/*.about-info {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -27,7 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
 }
 .experiences-list, .education-list {
     display: flex;
@@ -38,7 +37,6 @@
 .experience, .education {
     display: flex;
     justify-content: center;
-    /* min-width: 100%; */
 }
 .timeline {
     display: flex;
@@ -68,8 +66,6 @@
     border: 0.15em solid #777;
 }
 .experience-body, .education-body {
-    /* min-width: 40em;
-    max-width: 40em; */
     width: 40em;
     margin-left:1em;
     padding: 1em;
@@ -98,4 +94,91 @@
     border-radius: 0.5em;
     margin: 0;
     background-color: #333;
+}*/
+
+@media only screen and (max-width: 1000px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ddd;
+        padding: 30px 0;
+    }
+    .about-info img {
+        max-width: 50%;
+        border-radius: 50%;
+    }
+    .about-info p {
+        width: 100%;
+        margin-top: 30px;
+        line-height: 25px;
+        background-color: #222;
+        padding: 30px;
+    }
+    .about-section .view-more, .about-section .view-less {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .about-section .view-less {
+        display: none;
+    }
+    .about-desc {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 30px;
+    }
+    .experiences, .educations {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .timeline {
+        display: none;
+    }
+    .experience-body, .education-body {
+        padding: 30px;
+    }
+    .exp-title, .edu-degree {
+        font-size: 1.5em;
+    }
+    .exp-company, .edu-institution {
+        font-size: 1.25em;
+    }
+    .exp-location {
+        font-size: 0.9em;
+        display: inline-block;
+        margin-left: 1em;
+        color: #ccc;
+    }
+    .exp-period, .edu-period {
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 0.8em;
+        border: 0.1em solid #777;
+        border-radius: 0.5em;
+        margin: 0;
+        background-color: #333;
+    }
+    .edu-subject span {
+        margin-right: 5px;
+    }
+    .exp-description, .edu-subject {
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-info img {
+        max-width: 80%;
+    }
 }
