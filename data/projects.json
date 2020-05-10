@@ -24,14 +24,39 @@
     },
     {
         "id": 3,
+        "title": "Smart Irrigation System",
+        "domain": "Internet of Things",
+        "description": "A small-scale IoT-based project on automated irrigation system that senses the environmental conditions and runs the water pump.",
+        "contributors": [
+            "Aditya Raj",
+            "S.N.S.N. Datta"
+        ],
+        "link": "https://github.com/adityaDel222/SmartIrrigationSystem",
+        "demo": "../resources/smartirrigation.gif"
+    },
+    {
+        "id": 4,
         "title": "Mother's Recipe Portal",
         "domain": "Web Development",
-        "description": "A web-based portal to find your favourite recipes and even add your own for others to see.",
+        "description": "One of my earliest projects - A web-based portal to find your favourite recipes and even add your own for others to see.",
         "contributors": [
             "Aditya Raj",
             "Ansh Jain"
         ],
         "link": "https://github.com/adityaDel222/MothersRecipePortal",
         "demo": "../resources/mothersrecipeportal.gif"
+    },
+    {
+        "id": 5,
+        "title": "Basic Payroll Application",
+        "domain": "Web Development",
+        "description": "Another one of my earliest projects - a web application for companies to keep track of their employees' salaries and manage the payroll system.",
+        "contributors": [
+            "Aditya Raj",
+            "Sachin Raj G.S.",
+            "Manoj Reddy"
+        ],
+        "link": "https://github.com/adityaDel222/Payroll",
+        "demo": "../resources/payroll.gif"
     }
 ]
