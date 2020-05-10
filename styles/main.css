@@ -26,7 +26,6 @@ a {
     top: 2em;
     position: sticky;
     font-family: 'Orbitron', sans-serif;
-    /* font-family: 'VT323', monospace; */
     font-size: 1.7em;
     padding: 1em;
     background-color: #222;
@@ -35,22 +34,10 @@ a {
 .odd-item {
     background-color: #333;
 }
-.view-less {
-    display: none;
-}
-.view-more, .view-less {
-    text-align: center;
-    cursor: pointer;
-}
-.view-more span, .view-less span {
-    margin: 0;
-}
-.view-more span:hover, .view-less span:hover {
-    transform: translateY(0.1em);
-}
-.view-less span:hover {
-    transform: translateY(-0.1em);
-}
-.more-projects-list {
-    display: none;
+
+@media only screen and (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
 }

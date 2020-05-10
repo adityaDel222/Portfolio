@@ -44,3 +44,28 @@
     background-color: #aaa;
     color: #222;
 }
+
+@media only screen and (max-width: 500px) {
+    .header {
+        width: 100vw;
+        min-height: 736px;
+    }
+    .header img {
+        width: 100vw;
+        height: 100vh;
+    }
+    .header-titles {
+        flex-direction: column;
+        margin: 0;
+    }
+    .header-item {
+        flex-direction: row;
+        width: 80vw;
+    }
+    .header-item span {
+        display: none;
+    }
+    .header-item h1 {
+        width: 80%;
+    }
+}

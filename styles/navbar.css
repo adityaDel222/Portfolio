@@ -28,3 +28,9 @@
 .nav-bar-links a:hover {
     color: #aaa;
 }
+
+@media only screen and (max-width: 500px) {
+    .nav-bar {
+        display: none;
+    }
+}

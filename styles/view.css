@@ -1,0 +1,16 @@
+.view-less {
+    display: none;
+}
+.view-more, .view-less {
+    text-align: center;
+    cursor: pointer;
+}
+.view-more span, .view-less span {
+    margin: 0;
+}
+.view-more span:hover, .view-less span:hover {
+    transform: translateY(0.1em);
+}
+.view-less span:hover {
+    transform: translateY(-0.1em);
+}
