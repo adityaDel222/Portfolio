@@ -20,27 +20,3 @@ a {
 .section h1 {
     font-family: 'Orbitron', sans-serif;
 }
-/* .section {
-    margin: 4em 2em 5em 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.section h1 {
-    text-align: center;
-    top: 2em;
-    position: sticky;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.7em;
-    padding: 1em;
-    background-color: #222;
-    width: 100%;
-}
-
-@media only screen and (max-width: 500px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-} */
