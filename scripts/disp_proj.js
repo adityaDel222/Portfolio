@@ -1,6 +1,7 @@
+let i = 0;
 const display_projects = data => {
     let htmlString = ``;
-    for(let i = 0;i < 2; ++i) {
+    for(i = 0;i < 2; ++i) {
         if(i % 2 === 0) {
             htmlString += `<div class="project"><img src="${ data[i].demo }" />`;
         } else {
@@ -21,7 +22,7 @@ const display_projects = data => {
     }
     document.getElementsByClassName('projects-list')[0].innerHTML = htmlString;
     htmlString = ``;
-    for(let i = 2;i < data.length; ++i) {
+    for(i = 2;i < data.length; ++i) {
         if(i % 2 === 0) {
             htmlString += `<div class="project"><img src="${ data[i].demo }" />`;
         } else {
@@ -46,11 +47,11 @@ const display_more_projects = () => {
     document.getElementsByClassName('view-more')[1].style.display = 'none';
     document.getElementsByClassName('more-projects-list')[0].style.display = 'flex';
     document.getElementsByClassName('view-less')[1].style.display = 'block';
-    window.scrollTo(0, 2225);
+    window.scrollBy(0, 200);
 }
 const hide_more_projects = () => {
     document.getElementsByClassName('view-less')[1].style.display = 'none';
     document.getElementsByClassName('more-projects-list')[0].style.display = 'none';
     document.getElementsByClassName('view-more')[1].style.display = 'block';
-    window.scrollTo(0, 1300);
+    window.scrollBy(0, -(i * 150));
 }

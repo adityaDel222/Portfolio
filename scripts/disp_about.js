@@ -4,11 +4,11 @@ const display_more_about = () => {
     document.getElementsByClassName('view-more')[0].style.display = 'none';
     document.getElementsByClassName('about-desc')[0].style.display = 'flex';
     document.getElementsByClassName('view-less')[0].style.display = 'block';
-    window.scrollTo(0, 1150);
+    window.scrollBy(0, 200);
 }
 const hide_more_about = () => {
     document.getElementsByClassName('view-less')[0].style.display = 'none';
     document.getElementsByClassName('about-desc')[0].style.display = 'none';
     document.getElementsByClassName('view-more')[0].style.display = 'block';
-    window.scrollTo(0, 700);
+    window.scrollBy(0, -1750);
 }

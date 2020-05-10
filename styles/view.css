@@ -4,6 +4,7 @@
 .view-more, .view-less {
     text-align: center;
     cursor: pointer;
+    margin: 10px;
 }
 .view-more span, .view-less span {
     margin: 0;

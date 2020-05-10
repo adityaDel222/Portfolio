@@ -21,5 +21,28 @@
                 "year": "2019"
             }
         }
+    },
+    {
+        "id": "2",
+        "job_title": "Core Committee Member",
+        "company": "Dream Merchants (Chapter), VIT University",
+        "company_location": {
+            "city": "Vellore",
+            "state": "Tamil Nadu",
+            "country": "India"
+        },
+        "employer": null,
+        "employer_designation": null,
+        "job_description": "The tasks included organising and managing events hosted by the chapter during technical and non-technical fests.",
+        "period": {
+            "from": {
+                "month": "December",
+                "year": "2018"
+            },
+            "to": {
+                "month": "February",
+                "year": "2018"
+            }
+        }
     }
 ]
