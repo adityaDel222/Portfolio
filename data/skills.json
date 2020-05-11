@@ -3,30 +3,60 @@
         "id": 1,
         "name": "HTML",
         "domain": "Front-End Development",
-        "strength": 25
+        "strength": 90
     },
     {
         "id": 2,
         "name": "CSS",
         "domain": "Front-End Development",
-        "strength": 60
+        "strength": 85
     },
     {
         "id": 3,
         "name": "JavaScript",
         "domain": "Front-End Development",
-        "strength": 10
+        "strength": 70
     },
     {
         "id": 4,
         "name": "JQuery",
         "domain": "Front-End Development",
-        "strength": 100
+        "strength": 40
     },
     {
         "id": 5,
         "name": "React",
         "domain": "Front-End Development",
-        "strength": 75
+        "strength": 55
+    },
+    {
+        "id": 6,
+        "name": "MySQL",
+        "domain": "Back-End Development",
+        "strength": 80
+    },
+    {
+        "id": 7,
+        "name": "Python",
+        "domain": "Software Programming",
+        "strength": 80
+    },
+    {
+        "id": 8,
+        "name": "Java",
+        "domain": "Software Programming",
+        "strength": 65
+    },
+    {
+        "id": 9,
+        "name": "C++",
+        "domain": "Software Programming",
+        "strength": 60
+    },
+    {
+        "id": 10,
+        "name": "Arduino",
+        "domain": "Hardware Programming",
+        "strength": 35
     }
 ]
