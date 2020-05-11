@@ -11,6 +11,10 @@ window.onload = () => {
         .then(res => res.json())
         .then(data => display_projects(data))
         .catch(err => console.error(err));
+    fetch('./data/certifications.json')
+        .then(res => res.json())
+        .then(data => display_certifications(data))
+        .catch(err => console.error(err));
     fetch('./data/books.json')
         .then(res => res.json())
         .then(data => display_books(data))

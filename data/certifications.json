@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "Interfacing with the Arduino",
+        "issuing_organisation": "Coursera",
+        "does_not_expire": true,
+        "issue_date": {
+            "month": "October",
+            "year": "2019"
+        },
+        "expiry_date": {
+            "month": null,
+            "year": null
+        },
+        "credential_id": "8NB33S8LWLP5",
+        "credential_url": "https://www.coursera.org/account/accomplishments/verify/8NB33S8LWLP5"
+    },
+    {
+        "id": "2",
+        "name": "Machine Learning",
+        "issuing_organisation": "Coursera",
+        "does_not_expire": true,
+        "issue_date": {
+            "month": "April",
+            "year": "2020"
+        },
+        "expiry_date": {
+            "month": null,
+            "year": null
+        },
+        "credential_id": "SWVBNJGB8NCV",
+        "credential_url": "https://www.coursera.org/account/accomplishments/certificate/SWVBNJGB8NCV"
+    }
+]
