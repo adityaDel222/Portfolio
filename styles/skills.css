@@ -1,0 +1,88 @@
+
+@media only screen and (max-width: 1000px) {
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-section h1 {
+        margin: 50px 0;
+    }
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .skill {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .skill-bar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 75%;
+    }
+    .skill-strength {
+        height: 25px;
+        background-color: hsla(200, 50%, 50%, 0.8);
+        outline: none;
+        border: none;
+    }
+    .skill-strength:focus {
+        border: 3px solid hsla(200, 50%, 75%, 0.8);
+    }
+    .skill-strength-value {
+        opacity: 0;
+        margin-left: 10px
+    }
+    .skill-name {
+        width: 25%;
+        height: 100%;
+        margin-right: 10px;
+        border-left: 1px dashed #fff;
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-list {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        overflow: hidden;
+    }
+    .skill-strength-value {
+        opacity: 0;
+        margin: 0;
+        padding: 5px 5px;
+        color: #fff;
+    }
+    .skill-strength {
+        width: 30px;
+        background-color: hsla(200, 50%, 50%, 0.8);
+        outline: none;
+        border: none;
+    }
+    .skill-strength:focus {
+        border: 3px solid hsla(200, 50%, 75%, 0.8);
+    }
+}

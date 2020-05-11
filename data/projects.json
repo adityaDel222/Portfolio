@@ -24,6 +24,17 @@
     },
     {
         "id": 3,
+        "title": "Portfolio Website",
+        "domain": "Web Development",
+        "description": "Yeah, I mean the same website you're on. I couldn't help but consider this one too as I believe it helped me dive into the world of responsive web design and learn so much more!",
+        "contributors": [
+            "Aditya Raj"
+        ],
+        "link": "https://aditya-raj.netlify.app/",
+        "demo": "../resources/portfolio.gif"
+    },
+    {
+        "id": 3,
         "title": "Smart Irrigation System",
         "domain": "Internet of Things",
         "description": "A small-scale IoT-based project on automated irrigation system that senses the environmental conditions and runs the water pump.",

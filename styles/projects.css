@@ -10,7 +10,7 @@
         align-items: center;
     }
     .projects-section h1 {
-        margin-top: 50px;
+        margin-top: 75px;
     }
     .projects-list {
         display: flex;
@@ -61,6 +61,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
+    }
+    .projects-section h1 {
         margin-top: 50px;
     }
     .projects-list {

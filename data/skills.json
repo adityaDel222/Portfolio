@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "domain": "Front-End Development",
+        "strength": 25
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "domain": "Front-End Development",
+        "strength": 60
+    },
+    {
+        "id": 3,
+        "name": "JavaScript",
+        "domain": "Front-End Development",
+        "strength": 10
+    },
+    {
+        "id": 4,
+        "name": "JQuery",
+        "domain": "Front-End Development",
+        "strength": 100
+    },
+    {
+        "id": 5,
+        "name": "React",
+        "domain": "Front-End Development",
+        "strength": 75
+    }
+]
