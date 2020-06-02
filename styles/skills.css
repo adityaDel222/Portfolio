@@ -80,6 +80,10 @@
         background-color: hsla(200, 50%, 50%, 0.8);
         outline: none;
         border: none;
+        cursor: pointer;
+    }
+    .skill-strength:hover {
+        background-color: hsla(200, 50%, 50%, 1);
     }
     .skill-strength:focus {
         border: 3px solid hsla(200, 50%, 75%, 0.8);
