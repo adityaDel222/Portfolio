@@ -30,5 +30,21 @@
         },
         "credential_id": "SWVBNJGB8NCV",
         "credential_url": "https://www.coursera.org/account/accomplishments/certificate/SWVBNJGB8NCV"
+    },
+    {
+        "id": "3",
+        "name": "Neural Networks and Deep Learning",
+        "issuing_organisation": "Coursera",
+        "does_not_expire": true,
+        "issue_date": {
+            "month": "June",
+            "year": "2020"
+        },
+        "expiry_date": {
+            "month": null,
+            "year": null
+        },
+        "credential_id": "H6EJKGZXYS5U",
+        "credential_url": "https://www.coursera.org/account/accomplishments/certificate/H6EJKGZXYS5U"
     }
 ]
