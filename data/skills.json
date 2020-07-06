@@ -21,13 +21,13 @@
         "id": 4,
         "name": "JQuery",
         "domain": "Front-End Development",
-        "strength": 40
+        "strength": 55
     },
     {
         "id": 5,
         "name": "React",
         "domain": "Front-End Development",
-        "strength": 55
+        "strength": 40
     },
     {
         "id": 6,
@@ -58,5 +58,17 @@
         "name": "Arduino",
         "domain": "Hardware Programming",
         "strength": 35
+    },
+    {
+        "id": 11,
+        "name": "NodeJS",
+        "domain": "Back-End Development",
+        "strength": 70
+    },
+    {
+        "id": 12,
+        "name": "ExpressJS",
+        "domain": "Back-End Development",
+        "strength": 70
     }
 ]

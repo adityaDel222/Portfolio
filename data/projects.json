@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "title": "CityVoice News",
+        "domain": "Web Development",
+        "description": "An online daily local news portal developed as a full-stack web application employing Node.js, Express and MongoDB primarily.",
+        "contributors": [
+            "Aditya Raj"
+        ],
+        "link": "https://cityvoice.herokuapp.com",
+        "demo": "../resources/cityvoice.png"
+    },
+    {
+        "id": 2,
         "title": "Backdoor",
         "domain": "Cyber Security",
         "description": "Implemented a Backdoor using Python with an attempt to inject it on a target system on the same network through web and gain control of it remotely.",
@@ -13,7 +24,7 @@
         "demo": "../resources/backdoor.gif"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Track Your Corp",
         "domain": "Web Development",
         "description": "Track Your Corp shows you a list of corporations and their share details based on the keywords you enter into the search bar.",
@@ -24,7 +35,7 @@
         "demo": "../resources/trackyourcorp.gif"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "IOT Flow Data",
         "domain": "Cryptography",
         "description": "A project on simulating data communication between client and server using hash, symmetric and asymmetric encryption techniques.",
@@ -36,7 +47,7 @@
         "demo": "../resources/iotflowdata.gif"
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "Portfolio Website",
         "domain": "Web Development",
         "description": "Yeah, I mean the same website you're on. I couldn't help but consider this one too as I believe it helped me dive into the world of responsive web design and learn so much more!",
@@ -47,7 +58,7 @@
         "demo": "../resources/portfolio.gif"
     },
     {
-        "id": 3,
+        "id": 6,
         "title": "Smart Irrigation System",
         "domain": "Internet of Things",
         "description": "A small-scale IoT-based project on automated irrigation system that senses the environmental conditions and runs the water pump.",
@@ -59,7 +70,7 @@
         "demo": "../resources/smartirrigation.gif"
     },
     {
-        "id": 4,
+        "id": 7,
         "title": "Mother's Recipe Portal",
         "domain": "Web Development",
         "description": "One of my earliest projects - A web-based portal to find your favourite recipes and even add your own for others to see.",
@@ -71,7 +82,7 @@
         "demo": "../resources/mothersrecipeportal.gif"
     },
     {
-        "id": 5,
+        "id": 8,
         "title": "Basic Payroll Application",
         "domain": "Web Development",
         "description": "Another one of my earliest projects - a web application for companies to keep track of their employees' salaries and manage the payroll system.",
