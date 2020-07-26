@@ -14,8 +14,19 @@ a {
     text-decoration: none;
     color: #fff;
 }
+.even-item {
+    background-image: linear-gradient(
+        to left,
+        hsla(200, 50%, 50%, 0.5),
+        hsla(150, 50%, 0%, 0.5)
+    );
+}
 .odd-item {
-    background-color: #333;
+    background-image: linear-gradient(
+        to left,
+        hsla(150, 50%, 0%, 0.5),
+        hsla(200, 50%, 50%, 0.5)
+    );
 }
 .section h1 {
     font-family: 'Orbitron', sans-serif;

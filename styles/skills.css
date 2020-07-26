@@ -30,6 +30,11 @@
     .skill-strength {
         height: 25px;
         background-color: hsla(200, 50%, 50%, 0.8);
+        background-image: linear-gradient(
+            to right, 
+            hsla(200, 50%, 50%, 1),
+            hsla(150, 50%, 50%, 0.5)
+        );
         outline: none;
         border: none;
     }
@@ -77,13 +82,23 @@
     }
     .skill-strength {
         width: 30px;
-        background-color: hsla(200, 50%, 50%, 0.8);
+        /* background-color: hsla(200, 50%, 50%, 0.8); */
+        background-image: linear-gradient(
+            to top, 
+            hsla(200, 50%, 50%, 1),
+            hsla(150, 50%, 50%, 0.5)
+        );
         outline: none;
         border: none;
         cursor: pointer;
     }
     .skill-strength:hover {
-        background-color: hsla(200, 50%, 50%, 1);
+        background-image: linear-gradient(
+            to top, 
+            hsla(200, 50%, 50%, 1),
+            hsla(150, 50%, 50%, 1)
+        );
+        /* background-color: hsla(200, 50%, 50%, 1); */
     }
     .skill-strength:focus {
         border: 3px solid hsla(200, 50%, 75%, 0.8);

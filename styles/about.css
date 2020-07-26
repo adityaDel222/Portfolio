@@ -89,19 +89,20 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #333;
+        background-image: linear-gradient(to right, #111, #777, #111);
         padding: 2em 5em;
         margin-bottom: 1em;
     }
     .about-info img {
-        width: 20em;
-        border-radius: 50%;
+        width: 25em;
+        border-radius: 2.5%;
     }
     .about-info p {
         width: 40%;
         background-color: #222;
         color: #ddd;
         padding: 2em;
+        line-height: 22px;
     }
     .about-desc {
         display: none;

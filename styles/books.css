@@ -19,7 +19,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #ddd;
+        /* background-color: #ddd; */
+        background-image: linear-gradient(
+            to top,
+            hsla(150, 50%, 100%, 1),
+            hsla(200, 50%, 75%, 1)
+        );
         padding: 1em;
         color: #000;
         margin-bottom: 2em;
@@ -74,14 +79,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ddd;
+        background-image: linear-gradient(
+            to top,
+            hsla(150, 50%, 100%, 1),
+            hsla(200, 50%, 75%, 1)
+        );
         color: #222;
         width: 25em;
         padding: 1em;
     }
     .book img {
         width: 10em;
-        box-shadow: 0.2em 0.2em 0.1em 0.1em #aaa;
+        box-shadow: 0.2px 0.2px 0.1em 0.1em #aaa;
     }
     .book-info {
         margin: 1em 1.5em;;

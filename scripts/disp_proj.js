@@ -3,7 +3,7 @@ const display_projects = data => {
     let htmlString = ``;
     for(i = 0;i < 2; ++i) {
         if(i % 2 === 0) {
-            htmlString += `<div class="project"><img src="${ data[i].demo }" />`;
+            htmlString += `<div class="project even-item"><img src="${ data[i].demo }" />`;
         } else {
             htmlString += `<div class="project odd-item">`;
         }
@@ -24,7 +24,7 @@ const display_projects = data => {
     htmlString = ``;
     for(i = 2;i < data.length; ++i) {
         if(i % 2 === 0) {
-            htmlString += `<div class="project"><img src="${ data[i].demo }" />`;
+            htmlString += `<div class="project even-item"><img src="${ data[i].demo }" />`;
         } else {
             htmlString += `<div class="project odd-item">`;
         }
