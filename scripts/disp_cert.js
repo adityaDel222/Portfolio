@@ -8,7 +8,7 @@ const display_certifications = data => {
                     <span class="fas fa-chevron-down"></span>
                     <span class="fas fa-chevron-up"></span>
                 </div>
-                <div class="certification-body">
+                <div class="certification-body" style="display: none;">
                     <div class="certification-body-left">
                         <p><strong>Issued by:</strong> ${ data[i].issuing_organisation }</p>
         `;
