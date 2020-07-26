@@ -4,8 +4,7 @@ const aboutMe = `
     My name is Aditya Raj. I am a final year Computer Science undergraduate at Vellore Institute of Technology, Vellore, India.<br /><br />
     Since the beginning, I have always been interested in developing cool, exciting things, exploring new technology and learning new ways.<br /><br />
     Alright, enough talking. Here is a little attempt of mine to walk you through my life, skills I've acquired, stuff I've built and some certifications I've received along the journey.<br /><br />
-    Finally, I'll be glad to connect so please feel free to reach out.<br /><br />
-    P.S. I'm neither a coffee nor a tea person.
+    Finally, I'll be glad to connect so please feel free to reach out.
 `;
 // const aboutMe = `
 //     Lorem ipsum dolor sit amet consectetur...<br /><br />
