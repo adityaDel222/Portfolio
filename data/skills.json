@@ -15,7 +15,7 @@
         "id": 3,
         "name": "JavaScript",
         "domain": "Front-End Development",
-        "strength": 70
+        "strength": 75
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@
         "id": 8,
         "name": "Java",
         "domain": "Software Programming",
-        "strength": 65
+        "strength": 85
     },
     {
         "id": 9,
