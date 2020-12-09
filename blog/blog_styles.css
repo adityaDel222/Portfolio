@@ -13,7 +13,7 @@
     }
     .article {
         margin: 20px 0 0 0;
-        padding: 0 10px;
+        padding: 0 20px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -73,6 +73,19 @@
         text-align: center;
         width: 100%;
         color: #333;
+    }
+    .content > h2 {
+        margin: 10px 0 20px 0;
+    }
+    .content > ul {
+        list-style: none;
+    }
+    .content li {
+        padding: 5px 0;
+    }
+    .content ul li > a {
+        text-decoration:  none;
+        color: hsla(200, 25%, 50%, 1);
     }
     .footnotes {
         border-top: 1px solid #ccc;
@@ -170,6 +183,22 @@
         text-align: center;
         width: 100%;
         color: #333;
+    }
+    .content > h2 {
+        margin: 10px 0 20px 0;
+    }
+    .content > ul {
+        list-style: none;
+    }
+    .content li {
+        padding: 5px 0;
+    }
+    .content ul li > a {
+        text-decoration:  none;
+        color: hsla(200, 25%, 50%, 0.8);
+    }
+    .content ul li > a:hover {
+        color: hsla(200, 25%, 50%, 1);
     }
     .footnotes {
         border-top: 1px solid #ccc;
